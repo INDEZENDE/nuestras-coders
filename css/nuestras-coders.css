@@ -1,0 +1,67 @@
+
+img {
+  display: block;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+section {
+display: inline-block;
+width: 28%;
+outline: 1px solid yellow;
+}
+
+.left {
+  position: relative;
+  left: 4%;
+}
+
+.center {
+  position: relative;
+  left: 8%;
+}
+
+.rigth {
+  position: relative;
+  left: 12%;
+}
+
+div {
+position: relative;
+  height: 50px;
+}
+
+.black-line {
+  position: relative;
+  display: inline-block;
+  width: 4.5%;
+  height: 5px;
+  background-color: black;
+
+}
+
+.white-line {
+  display: inline-block;
+  position: relative;
+  width: 5%;
+  display: inline-block;
+
+}
+p{
+  display:inline-block;
+}
+
+
+.name-top
+{
+  position: absolute;
+  top:80%;
+  left: 31%;
+}
+
+.name-botom
+{
+  position: absolute;
+  top:80%;
+  left: 31%;
+}
